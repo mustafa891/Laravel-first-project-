@@ -1,0 +1,27 @@
+.cart {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    z-index: 333;
+    transition: all 1s ease;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 200ms;
+
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.custom1-btn {
+    color: #fff !important;
+    border-color: #2c3e50 !important;
+    background-color: #2c3e50 !important;
+}
+.custom2-btn {
+    color: #fff !important;
+    background-color: #1266f1;
+}
